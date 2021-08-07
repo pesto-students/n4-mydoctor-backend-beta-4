@@ -1,0 +1,20 @@
+{
+    "dev": {
+      "name": "My Doctor - Dev Mode",
+      "port": 4000,
+      "mode": "development",
+      "protocol": "http",
+      "serverUrl": "localhost",
+      "serverUrlWebUrlLink": "localhost:4000/",
+      "database": {
+        "multipleStatements": true,
+        "connectionUrl": "mongodb+srv://admin:admin1234@cluster0.3o43c.mongodb.net/myDoctorDatabase?retryWrites=true&w=majority"
+      },
+      "email": {
+        "host": "",
+        "port": "",
+        "username": "",
+        "password": ""
+      }
+    }
+  }
